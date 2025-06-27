@@ -1,0 +1,2 @@
+# COVID-19-Data-Analysis-Using-Python-Pandas-Matplotlib-
+This project analyzes COVID-19 data from 28 Indian states using Python libraries pandas and matplotlib. It calculates active cases, generates state-wise summaries, and visualizes data through pie charts. Designed as a beginner-friendly project, it demonstrates basic data analysis, user input handling, and effective data visualization techniques.
