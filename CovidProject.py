@@ -47,24 +47,3 @@ print(f"{total_confirmed:<10} {total_recovered:<10} {total_deceased:<10} {total_
 
 
 
-
-
-
-
-
-
-
-"""autopct='%1.1f%%'
-This controls how the percentages are displayed on the pie chart.
-'%1.1f%%' means:
-1.1f: Show one digit before the decimal and one digit after (like 23.5%)
-%%: Escapes the % symbol (Python needs double % to print one)
-"""
-"""
-f"{'Confirmed':<10} {'Recovered':<10} {'Deceased':<10} {'Active':<10}"
-This prints the column headers.
-:<10 means "left-align in a space that's 10 characters wide".
-"""
-"""
-print(summary.to_string(index=False))
-It removes the unnecessary row index (0) and makes it more professional."""
